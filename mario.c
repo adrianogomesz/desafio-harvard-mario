@@ -13,14 +13,14 @@ int main(void)
     } while (height < 0 || height > 8);
 
     
-    for(int linha = 0; linha != height; linha++) {
+    for(int line = 0; line != height; line++) {
 
-        for(int espaco = 0; espaco < height - linha; espaco++) {
+        for(int space = 0; space < height - line; space++) {
             printf(" ");
             
         }
 
-        for(int blocos = 0; blocos <= linha; blocos++){
+        for(int blocks = 0; blocks <= line; blocks++){
             printf("#");
         }
         
