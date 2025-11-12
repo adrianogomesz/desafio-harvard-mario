@@ -20,10 +20,18 @@ int main(void)
             
         }
 
-        for(int blocks = 0; blocks <= line; blocks++){
+        for(int blocks = 0; blocks <= line; blocks++) {
             printf("#");
+
         }
         
+        printf(" ");
+
+        for(int blocos = 0; blocos <= line; blocos++) {
+            printf("#");
+
+        }
+
         printf("\n");
 
     }    
